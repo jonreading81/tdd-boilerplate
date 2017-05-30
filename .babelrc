@@ -10,6 +10,6 @@
         ["es2015", { "modules": false }]
     ],
     "plugins": [
-        "babel-plugin-relative-import"
-    ]
+        ["babel-plugin-root-import"]
+      ]
 }
