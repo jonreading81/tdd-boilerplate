@@ -13,9 +13,8 @@ module.exports = function (config) {
         // webpack configuration
         webpack: require("./webpack.config.js"),
         webpackMiddleware: {
-            stats: "errors-only"
+            //stats: "errors-only"
         },
-        reporters: ['progress'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
